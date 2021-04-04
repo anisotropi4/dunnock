@@ -10,7 +10,7 @@ fi
 
 FILENAME=output-stations.json
 if [ ! -s ${FILENAME} ]; then
-    URL=https://gist.githubusercontent.com/anisotropi4/54c29e6e6192cf758e12279e1981e889/raw/ceb3b8ae27511de7a0bbb2028055ad5dc8de20da
+    URL=https://gist.githubusercontent.com/anisotropi4/54c29e6e6192cf758e12279e1981e889/raw/9639ccfdc24f6e7a585dc3340d7d9da4e828af5d
     curl ${URL}/${FILENAME} -o ${FILENAME}
 fi
 
